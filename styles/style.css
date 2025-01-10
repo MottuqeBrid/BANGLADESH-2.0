@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Fira Sans", serif;
+}
+body {
+  padding: 0 50px;
+  background-color: #f1f1f3;
+}
+/* common style  */
+.mtb {
+  margin: 50px 0;
+}
+.btn {
+  background-color: #006a50f4;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 18px;
+  cursor: pointer;
+  color: white;
+  border: none;
+  font-weight: bold;
+  transition: 0.4s;
+}
+.btn:hover {
+  background-color: #005043;
+  /* color:red; */
+}
+/* nav style  */
+header > nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+  align-items: center;
+}
+header > nav .web-title {
+  font-size: 30px;
+}
+header > nav .signup-btn {
+  border: 1.5px solid #006a50;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 18px;
+  cursor: pointer;
+  font-weight: semibold;
+}
+header > nav .signup-btn:hover {
+  background-color: #006a50;
+  color: white;
+}
+/* hero style  */
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(198, 228, 214);
+  padding: 80px;
+  border-radius: 10px;
+  gap: 50px;
+  margin: 50px 0;
+}
+.box {
+  width: 50%;
+}
+.box > img {
+  width: 100%;
+}
+.hero-text-box {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.hero-text {
+  color: rgba(14, 14, 14, 0.5);
+  font-weight: 500;
+  font-size: 12px;
+}
+.hero-title {
+  font-size: 35px;
+  font-weight: 700;
+}
+.hero-btn {
+  width: 300px;
+}
+/* Pillars of "Bangladesh 2.0" style  */
+.pillars-section-title {
+  color: rgb(14, 14, 14);
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.pillars-section-boxs {
+  display: flex;
+  gap: 30px;
+}
+.pillars-section-box {
+  width: 25%;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+}
+.pillars-section-box > img {
+  width: 70px;
+}
+.pillars-section-box > h3,
+.vision-section-box > h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 10px 0;
+}
+.pillars-section-box > p,
+.vision-section-text,
+.vision-section-box > p {
+  font-size: 18px;
+  color: rgba(14, 14, 14, 0.5);
+  margin: 10px 0;
+}
+/* The Vision of Future style */
+.vision-section-title {
+  font-size: 35px;
+  font-weight: 700;
+  margin: 10px 0;
+}
+.vision-boxs {
+  display: flex;
+  gap: 30px;
+}
+.vision-section-box {
+  width: 33%;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+}
+.bg1 {
+  background-color: rgba(84, 144, 245, 0.2);
+}
+.bg2 {
+  background-color: rgb(198, 228, 214);
+}
+.bg3 {
+  background-color: rgb(247, 235, 207);
+}
+.bbg1 {
+  background-color: #5490f5;
+}
+.bbg2 {
+  background-color: #09a15c;
+}
+.bbg3 {
+  background-color: #ffc239;
+}
+/* Dr. Muhammad Yunus style */
+.dr-yunus-section {
+  background-color: white;
+  padding: 50px 25px;
+  border-radius: 8px;
+  background-image: url("./../assets/quote-bg.png");
+  background-repeat: no-repeat;
+  background-position: 25px 35px;
+}
+.dr-yunus-section > p {
+  font-size: 18px;
+  color: rgba(14, 14, 14, 0.5);
+  margin: 10px 0;
+}
+.dr-yunus-section > h1 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 10px 0;
+}
