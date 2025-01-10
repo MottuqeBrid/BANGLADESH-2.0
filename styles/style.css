@@ -4,13 +4,17 @@
   padding: 0;
   font-family: "Fira Sans", serif;
 }
-body {
+main,
+header {
   padding: 0 50px;
   background-color: #f1f1f3;
+  overflow: hidden;
 }
 /* common style  */
 .mtb {
-  margin: 60px 0;
+  /* margin: 60px 0; */
+  margin-top: 60px;
+  margin-bottom: 60px !important;
 }
 .btn {
   background-color: #006a50f4;
@@ -88,7 +92,8 @@ header > nav .signup-btn:hover {
 /* Pillars of "Bangladesh 2.0" style  */
 .pillars-section-title,
 .recent-news-title,
-.donate-title {
+.donate-title,
+.subscribe-title {
   color: rgb(14, 14, 14);
   font-size: 35px;
   font-weight: 700;
@@ -117,7 +122,8 @@ header > nav .signup-btn:hover {
 .vision-section-text,
 .vision-section-box > p,
 .recent-news-subtitle,
-.donate-text {
+.donate-text,
+.subscribe-text {
   font-size: 18px;
   color: rgba(14, 14, 14, 0.5);
   margin: 10px 0;
@@ -292,4 +298,62 @@ table {
 }
 .donate-container input[type="text"]::placeholder {
   text-align: center;
+}
+/* Subscribe Newsletter style */
+.subscribe-section {
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+  background-color: #c6e4d6;
+  padding: 70px 180px;
+  border-radius: 8px;
+}
+.subscribe-section > form {
+  display: flex;
+  justify-content: center;
+  gap: 0px;
+  margin: 20px 0;
+  align-items: center;
+  width: 100%;
+}
+.subscribe-section > form > input {
+  width: 90%;
+  height: 35px;
+  padding: 10px;
+  border-radius: 8px 0 0 8px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+.subscribe-section > form > input::placeholder {
+  padding-left: 20px;
+}
+.subscribe-section > form > button {
+  width: 40%;
+  height: 55px;
+  border-radius: 0 8px 8px 0;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  margin: 10px 0;
+}
+/* footer style */
+footer {
+  background-color: #fff;
+  color: black;
+  padding: 50px 0;
+  text-align: center;
+  margin: 0 auto;
+  width: 70%;
+}
+footer h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.ficon {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
