@@ -86,7 +86,8 @@ header > nav .signup-btn:hover {
   width: 300px;
 }
 /* Pillars of "Bangladesh 2.0" style  */
-.pillars-section-title {
+.pillars-section-title,
+.recent-news-title {
   color: rgb(14, 14, 14);
   font-size: 35px;
   font-weight: 700;
@@ -113,7 +114,8 @@ header > nav .signup-btn:hover {
 }
 .pillars-section-box > p,
 .vision-section-text,
-.vision-section-box > p {
+.vision-section-box > p,
+.recent-news-subtitle {
   font-size: 18px;
   color: rgba(14, 14, 14, 0.5);
   margin: 10px 0;
@@ -215,4 +217,33 @@ table {
 }
 .opinion-box > table tr th {
   background-color: #c6e4d6;
+}
+/* Recent News style  */
+.Recent-News-box {
+  display: flex;
+  gap: 30px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  align-items: center;
+  margin: 20px 0;
+}
+.Recent-News-box > img {
+  width: 33%;
+}
+.dbox > h2 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 10px 0;
+}
+.dbox > p {
+  font-size: 18px;
+  color: rgba(14, 14, 14, 0.5);
+  margin: 10px 0;
+}
+.dbox > img {
+  margin: 10px 0;
+}
+.reverse-box {
+  flex-direction: row-reverse;
 }
