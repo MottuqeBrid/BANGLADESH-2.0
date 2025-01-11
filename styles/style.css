@@ -235,6 +235,10 @@ table {
   border-radius: 8px;
   align-items: center;
   margin: 20px 0;
+  transition: 0.3s linear;
+}
+.Recent-News-box:hover {
+  background-color: #c6e4d6;
 }
 .ibox {
   /* width: 400px; */
